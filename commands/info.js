@@ -18,7 +18,7 @@ module.exports = {
    */
   async execute(interaction) {
     const infoMessage = `
-**2x2t Server Info:**
+# ℹ️ Server Information
 - **IP:** 2x2t.org
 - **Version:** 1.21.8
 - **Platform:** Folia
