@@ -52,7 +52,7 @@ module.exports = {
       }
     }
 
-    const statusMessage = `📊 Server Status
+    const statusMessage = `# 📊 Server Status
 **🟢 Players:** ${playersCount}
 ${playerNames}
 
