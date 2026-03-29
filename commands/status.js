@@ -38,11 +38,11 @@ module.exports = {
     const motd = status.motd && status.motd.clean ? status.motd.clean : 'No MOTD available';
 
     const statusMessage = `📊 Server Status
-🟢 Players: ${playersCount}
+🟢 **Players:** ${playersCount}
 ${playerNames}
 
-📝 MOTD: ${motd}
-⏱ Uptime: ${uptime}`;
+📝 **MOTD:** ${motd}
+⏱ **Uptime:** ${uptime}`;
 
     await interaction.editReply(statusMessage);
   },
