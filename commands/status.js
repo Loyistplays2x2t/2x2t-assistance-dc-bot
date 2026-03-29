@@ -35,7 +35,8 @@ module.exports = {
       ? `👥 ${status.sample.map(p => p.name).join(', ')}`
       : '👥 No players online';
 
-    const motd = status.motd && status.motd.clean ? status.motd.clean : 'No MOTD available';
+const motdRaw = status.motd && status.motd.clean ? status.motd.clean : 'No MOTD available';
+const motd = motdRaw.substring(4);
 
     const statusMessage = `📊 Server Status
 🟢 **Players:** ${playersCount}
